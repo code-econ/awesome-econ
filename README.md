@@ -2,6 +2,14 @@
 
 Curated list of links related to coding in economics. We will try to list links to class content, notebooks, replication codes, libraries and data sources. We are just starting this so bare with us and please send us suggestions!
 
+## Coding Resources
+
+  - [RISE](https://rise.readthedocs.io) Jupyter slideshow extension
+  - [Google Collab](https://colab.research.google.com/) online Jupyter notebooks with GPU support
+  - [Atom](https://atom.io/) text editor
+    - Interactive coding with [hydrogen](https://atom.io/packages/hydrogen)
+    - Julia support with [IJulia](https://github.com/JuliaLang/IJulia.jl) and [language-julia](https://atom.io/packages/language-julia)
+    - R support with [IRkernel](https://irkernel.github.io/installation/) and [language-r](https://atom.io/packages/language-r)
 
 ## DataFrames
 
@@ -15,3 +23,21 @@ Curated list of links related to coding in economics. We will try to list links 
   - [Modin](https://modin.readthedocs.io/en/latest/) dropin replacement for large datasets
  - R
    - [data.table](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html) fast dataframe for R
+
+## Deep Learning
+
+- Pytorch
+  - [Installation](https://pytorch.org/get-started/locally/) with or without GPU support
+  - [Quickstart](https://pytorch.org/tutorials/beginner/basics/intro.html) to learn the basics
+- Keras
+  - Getting started in [Python](https://keras.io/getting_started/intro_to_keras_for_researchers/) and [R](https://tensorflow.rstudio.com/installation/)
+
+## Machine Learning
+
+  - [scikit-learn](https://scikit-learn.org/stable/) in Python
+  - [mlr3](https://mlr3.mlr-org.com/) in R
+
+## Academic Websites
+
+- [GitHub Pages](https://pages.github.com/) to host a private website
+- [Jekyll](https://jekyllrb.com/) for building pages from HTML/CSS
