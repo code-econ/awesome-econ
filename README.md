@@ -5,6 +5,10 @@ Curated list of links related to coding in economics. We will try to list links 
 ## Coding Resources
   - [RISE](https://rise.readthedocs.io) Jupyter slideshow extension
   - [Google Collab](https://colab.research.google.com/) online Jupyter notebooks with GPU support
+  - [Atom](https://atom.io/) text editor
+    - Interactive coding with [hydrogen](https://atom.io/packages/hydrogen)
+    - Julia support with [IJulia](https://github.com/JuliaLang/IJulia.jl) and [language-julia](https://atom.io/packages/language-julia)
+    - R support with [IRkernel](https://irkernel.github.io/installation/) and [language-r](https://atom.io/packages/language-r)
 
 ## DataFrames
 
@@ -25,3 +29,7 @@ Curated list of links related to coding in economics. We will try to list links 
   - [Quickstart](https://pytorch.org/tutorials/beginner/basics/intro.html) to learn the basics
 - Keras
   - Getting started in [Python](https://keras.io/getting_started/intro_to_keras_for_researchers/) and [R](https://tensorflow.rstudio.com/installation/)
+
+## Academic Websites
+- [GitHub Pages](https://pages.github.com/) to host a private website
+- [Jekyll](https://jekyllrb.com/) for building pages from HTML/CSS
