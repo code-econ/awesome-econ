@@ -64,3 +64,9 @@ Curated list of links related to coding in economics. We will try to list links 
  - [doit](https://pydoit.org/) 
  - [snakemake](https://snakemake.readthedocs.io/en/stable/) 
  - [luigi](https://github.com/spotify/luigi), [airflow](https://airflow.apache.org/) and [prefect](https://www.prefect.io/) are great but not clearly adapted to scientific work
+
+## Rerpoducibility, versioning and provenance
+
+ - [Verdant](https://marybethkery.com/Verdant/) keeps a history of all changes to a notebook
+ - [nbdime](https://nbdime.readthedocs.io/en/latest/) nicely compare versions of a notebook
+ - [dvc](https://dvc.org/) versioning for large files and more, inside git
