@@ -13,6 +13,26 @@ Curated list of links related to coding in economics. We will try to list links 
   - [VS code](https://code.visualstudio.com/) open source text editor by Microsoft.
     - I find that using the notebook in the browser is better than the notebook inside VScode
 
+## Maintaining environments
+
+This is the first required piece. The following resources help with portability of your code. 
+
+ - [conda](https://docs.conda.io/en/latest/) is a the goto package manager for data-science. It supports all platform, and provides binaries so you don't need tool chains installed. It also doesn't require admin right on the machine. It supports all languages like julia, R, go, rust and of course python
+  - [conda-build](https://docs.conda.io/projects/conda-build/en/latest/) allows to port a conda environment prepared on one machine to another.   
+  - [mamba](https://github.com/mamba-org/mamba) is a drop-in replacement for conda that is faster.
+- [Nix](https://nixos.org/download.html) is a manage it all manager. It requires admin rights.
+
+Container approach: think of these as thin virtual machine. This is the easier to port as long as the host machine has the ability to run containers. 
+
+- [docker](https://www.docker.com/) is an industry standard for portable code. 
+- [singularity](https://sylabs.io/singularity) is probably where academia will converge. 
+
+Some language specific package and environment managers:
+
+ - [julia](https://pkgdocs.julialang.org/v1.2/environments/) natively supports environment. It's really great. It can be hard however to relocate an environment.
+ - [pdm](https://pdm.fming.dev/) is a recent python enivronment manager, compared to the king of the gender `npm`
+ - [peotry](https://python-poetry.org/) is a very friendly python environment manager. Makes is easy to upload package to pip
+
 ## DataFrames
 
  - Julia
@@ -53,9 +73,10 @@ Curated list of links related to coding in economics. We will try to list links 
 
 ## Slides in html
  
-- [reveal.js](https://revealjs.com/) is the most mature
+- [reveal.js](https://revealjs.com/) is the most mature but also older. 
 - [mdx-deck](https://github.com/jxnblk/mdx-deck) based on react and MDX (markdown)
 - [spectacle](https://formidable.com/open-source/spectacle/) also react
+- [slidev](https://github.com/slidevjs/slidev) is based on vue.js and vite.js. This is the best html framework to write academic presentation. It supporst math, annotations, code highlights and the list goes on and on. Because it is built on vite, the slides get updated almost instantly whenever you change the source. It's amazing!
 
 ## Pipelines
 
