@@ -91,3 +91,7 @@ Some language specific package and environment managers:
  - [Verdant](https://marybethkery.com/Verdant/) keeps a history of all changes to a notebook
  - [nbdime](https://nbdime.readthedocs.io/en/latest/) nicely compare versions of a notebook
  - [dvc](https://dvc.org/) versioning for large files and more, inside git
+
+## Notebooks
+
+ - [Jupytext](https://github.com/mwouts/jupytext) seamless sync between text based files and notebook format (json)
