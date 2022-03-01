@@ -12,6 +12,7 @@ Curated list of links related to coding in economics. We will try to list links 
     - R support with [IRkernel](https://irkernel.github.io/installation/) and [language-r](https://atom.io/packages/language-r)
   - [VS code](https://code.visualstudio.com/) open source text editor by Microsoft.
     - I find that using the notebook in the browser is better than the notebook inside VScode
+  - [Jupytext](https://github.com/mwouts/jupytext) seamless sync between text based files and notebook format (json)
 
 ## Maintaining environments
 
@@ -92,6 +93,3 @@ Some language specific package and environment managers:
  - [nbdime](https://nbdime.readthedocs.io/en/latest/) nicely compare versions of a notebook
  - [dvc](https://dvc.org/) versioning for large files and more, inside git
 
-## Notebooks
-
- - [Jupytext](https://github.com/mwouts/jupytext) seamless sync between text based files and notebook format (json)
