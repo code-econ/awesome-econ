@@ -18,7 +18,7 @@ Curated list of links related to coding in economics. We will try to list links 
 
 This is the first required piece. The following resources help with portability of your code. 
 
- - [conda](https://docs.conda.io/en/latest/) is a the goto package manager for data-science. It supports all platform, and provides binaries so you don't need tool chains installed. It also doesn't require admin right on the machine. It supports all languages like julia, R, go, rust and of course python
+ - [conda](https://docs.conda.io/en/latest/) is a the goto package manager for data-science. Ihttps://vifm.info/t supports all platform, and provides binaries so you don't need tool chains installed. It also doesn't require admin right on the machine. It supports all languages like julia, R, go, rust and of course python
   - [conda-build](https://docs.conda.io/projects/conda-build/en/latest/) allows to port a conda environment prepared on one machine to another.   
   - [mamba](https://github.com/mamba-org/mamba) is a drop-in replacement for conda that is faster.
 - [Nix](https://nixos.org/download.html) is a manage it all manager. It requires admin rights.
@@ -93,3 +93,13 @@ Some language specific package and environment managers:
  - [nbdime](https://nbdime.readthedocs.io/en/latest/) nicely compare versions of a notebook
  - [dvc](https://dvc.org/) versioning for large files and more, inside git
 
+## Terminal 
+
+ - file managers:
+   - [vifm](https://vifm.info/)
+   - [ranger](https://github.com/ranger/ranger)
+   - [lf](https://github.com/gokcehan/lf)
+   - [xplr](https://github.com/sayanarijit/xplr)
+ - temrinal emulator
+   - [kitty]()
+   - [alacrity]()  
